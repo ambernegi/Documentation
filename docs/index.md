@@ -37,7 +37,7 @@ RAG has three primary stages:
 
 <!-- RAG Process Overview Graphic with modal -->
 <div style="text-align:center;">
-  <img id="rag-graphic" src="assets/block1.png" alt="RAG Process Overview" style="max-width:165px; width:100%; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.07); display:block; margin:auto;" />
+  <img id="rag-graphic" src="assets/block1.png" alt="RAG Process Overview" style="max-width:750px; width:100%; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.07); display:block; margin:auto;" />
 </div>
 
 ---
@@ -88,9 +88,10 @@ RAG has three primary stages:
 </div>
 
 ---
+## Process and Impact from the Content Designer
 
-## Our Process & Impact
+**User Research is an important part of design decisions and strategies.** It should cater to the intended audience, focusing less on bells and whistles and more on meeting the user's objective (why they came to the documentation in the first place). When documentation is tailored to real user scenarios, it becomes a trusted source, reducing confusion, support requests, and building user confidence.
 
-- User research drives every decision
-- Iterative prototyping and usability testing
-- Measurable improvements in user success and satisfaction
+**Iterative prototyping and usability testing** help improve quality and bring in multiple perspectives. If I am able to follow the documentation and accomplish the task at hand, my audience will be able to as well. It also helps if a peer reviewer from the team can share their opinion.
+
+**Some sort of analytics or tangible improvements** should be in place to measure what success and satisfaction look like. This helps ensure the documentation is truly effective for its users. It can be a feedback system, user surveys, or other observations that help arrive at valuable insights.
