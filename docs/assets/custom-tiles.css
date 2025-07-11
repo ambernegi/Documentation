@@ -1,0 +1,31 @@
+/* Custom tile background for dark mode */
+@media (prefers-color-scheme: dark) {
+  a[style*="box-shadow"] {
+    background: #23272f !important; /* lighter grey for contrast in dark mode */
+    color: #fff !important;
+    border-color: #444 !important;
+    transition: background 0.2s, color 0.2s, border-bottom 0.2s;
+    border-bottom: 3px solid transparent;
+  }
+  a[style*="box-shadow"]:hover {
+    background: #2d333b !important;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    border-bottom: 3px solid #1976d2 !important; /* blue line on hover */
+  }
+}
+
+/* Light mode: black line on hover */
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  a[style*="box-shadow"] {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+  }
+  a[style*="box-shadow"]:hover {
+    border-bottom: 3px solid #111 !important; /* black line on hover */
+  }
+}
+
+/* Keep the rest of the theme grey and white for both modes */
+body, .md-main, .md-content {
+  background: var(--md-default-bg-color);
+} 
