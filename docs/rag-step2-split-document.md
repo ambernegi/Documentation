@@ -1,5 +1,3 @@
-## Split the Document into Chunks
-
 LLMs have a limited context window, so we split documents into smaller, meaningful chunks. This helps retrieve only the relevant information for each query.
 
 === "Python"
