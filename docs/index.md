@@ -33,21 +33,15 @@ RAG has three primary stages:
 * Feed retrieved chunks to an LLM to generate fact-based, coherent responses.
 * The LLM uses both the retrieved context and its internal knowledge.
 
----
 
-<!-- RAG Process Overview Graphic with modal -->
-<div style="text-align:center;">
-  <img id="rag-graphic" src="assets/block1.png" alt="RAG Process Overview" style="max-width:750px; width:100%; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.07); display:block; margin:auto;" />
-</div>
-
----
 
 # Benefits of RAG
 
 * **Accuracy**: Reduces hallucinations by grounding responses in factual data.
 * **Scalability**: Handles large datasets efficiently using vector databases.
 * **Flexibility**: Works with various LLMs and vector databases.
-
+---
+---
 ## Developer Journey: Creating a RAG Project
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between;">
