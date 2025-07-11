@@ -1,7 +1,7 @@
 # Step 3: Create Embeddings
 
 For each text chunk, we create embeddings—numerical representations that capture semantic meaning. These are stored in a vector database for efficient search.
-
+=== "Python"
 ```python
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
