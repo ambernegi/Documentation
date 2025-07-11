@@ -1,10 +1,10 @@
-# Implementing Retrieval Augmeneted Generation (RAG) using Langchain and Ollama
+# Implementing Retrieval Augmented Generation (RAG) using Langchain and Ollama
 
 ---
 
 Let’s use one of the most famous techniques to ground the LLM and guide the LLM to respond with more accurate information.
 
-LLMs are great at understanding language and carving out the context from different pieces of text. Despite being so powerful, it too faces some problems that may lead to unreliability for some use cases where information from the model needs to be precise and up to date. This problem is specially seen when we are dealing with dynamic data.
+LLMs are great at understanding language and carving out the context from different pieces of text. Despite being so powerful, it too faces some problems that may lead to unreliability for some use cases where information from the model needs to be precise and up to date. This problem is especially seen when we are dealing with dynamic data.
 
 ---
 
@@ -12,7 +12,7 @@ LLMs are great at understanding language and carving out the context from differ
 
 # Overview
 
-RAG is a hybrid approach that enhances large language models (LLMs) by integrating external knowledge sources during the generation process. This ensures responses are **factually accurate** and grounded in real updated data, making RAG an effective technique for applications like question answering, document summarization, chatbots, and other applications.
+RAG is a hybrid approach that enhances large language models (LLMs) by integrating external knowledge sources during the generation process. This ensures responses are **factually accurate** and grounded in real, updated data, making RAG an effective technique for applications like question answering, document summarization, chatbots, and other applications.
 
 # How RAG Works
 
@@ -44,9 +44,9 @@ RAG has three primary stages:
 
 # Benefits of RAG
 
-* **Accuracy** : Reduces hallucinations by grounding responses in factual data.
-* **Scalability** : Handles large datasets efficiently using vector databases.
-* **Flexibility** : Works with various LLMs and vector databases.
+* **Accuracy**: Reduces hallucinations by grounding responses in factual data.
+* **Scalability**: Handles large datasets efficiently using vector databases.
+* **Flexibility**: Works with various LLMs and vector databases.
 
 ## Developer Journey: Creating a RAG Project
 
