@@ -1,1 +1,58 @@
-site_name: My Docs
+site_name: Demo Documentation
+site_url: https://localhost:8000/
+nav:
+  - Home: index.md
+  - "RAG Overview": rag-overview.md
+  - "Step 1: Load Data": rag-step1-load-data.md
+  - "Step 2: Split Document": rag-step2-split-document.md
+  - "Step 3: Create Embeddings": rag-step3-create-embeddings.md
+  - "Step 4: Retrieval": rag-step4-retrieval.md
+  - "Step 5: Generation": rag-step5-generation.md
+  - "RAG Chatbot Example": rag-chatbot-example.md
+  - "What's Next: CAG & Graph RAG": docs/whats-next-cag-graph-rag.md
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Fira Mono
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.tabs.link
+    - header.autohide
+    - announce.dismiss
+extra:
+  announcement:
+    type: info
+    text: "✨ Welcome! Explore our new, user-friendly documentation portal."
+ 
+  footer:
+    copyright: "© 2025 Demo Portal. All rights reserved."
+  extra_css:
+    - assets/custom-tiles.css
+plugins:
+  - search
+ 
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
