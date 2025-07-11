@@ -9,7 +9,7 @@ nav:
   - "Step 4: Retrieval": rag-step4-retrieval.md
   - "Step 5: Generation": rag-step5-generation.md
   - "RAG Chatbot Example": rag-chatbot-example.md
-  - "What's Next: CAG & Graph RAG": docs/whats-next-cag-graph-rag.md
+  - "What's Next: CAG & Graph RAG": whats-next-cag-graph-rag.md
 theme:
   name: material
   palette:
