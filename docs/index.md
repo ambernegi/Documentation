@@ -74,9 +74,10 @@ RAG has three primary stages:
   <h3>RAG Chatbot Example</h3>
   <p>See a full chatbot implementation.</p>
 </a>
-<a href="whats-next-cag-graph-rag/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s; border: 2px solid #1976d2;">
-  <h3>What's Next: CAG & Graph RAG</h3>
-  <p>Explore advanced techniques like Context-Aware Generation and Graph-based RAG for even more powerful retrieval and generation workflows.</p>
+</a>
+<a href="whats-next-cag-graph-rag/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:50%; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s; border: 2px solid #1976d2; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:250px; height:250px;">
+  <h3 style="margin-top:0;">What's Next: CAG & Graph RAG</h3>
+  <p style="text-align: center;">Explore advanced techniques like Context-Aware Generation and Graph-based RAG for even more powerful retrieval and generation workflows.</p>
 </a>
 
 </div>
@@ -95,3 +96,7 @@ My approach to documentation and design is rooted in empathy, clarity, and conti
 - **Measuring success:** Value analytics and tangible feedback to define and track what success and satisfaction look like for our users and hence our content and overall experience.
 
 By combining these principles, we create documentation that is not only informative but also enjoyable to use.
+
+## Other Projects
+- Documentation: https://onlinedocs.microchip.com/oxy/GUID-AFCB5DCC-964F-4BE7-AA46-C756FA87ED7B-en-US-15/index.html
+
