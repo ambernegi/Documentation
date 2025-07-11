@@ -84,14 +84,14 @@ RAG has three primary stages:
 ---
 ## Design Thinking: Process & Impact
 
-Our approach to documentation and design is rooted in empathy, clarity, and continuous improvement:
+My approach to documentation and design is rooted in empathy, clarity, and continuous improvement. For this portfolio, here is the area of focus:
 
-- **User research drives every decision:** We focus on understanding the real needs and objectives of our audience, prioritizing substance over unnecessary features.
-- **Accessible for all:** Both dark and light modes are available, ensuring comfort and accessibility for every user.
+- **User research contributes to design decisions:** Focus on understanding the real needs and objectives of our audience, prioritizing substance over bells and whistles.
+- **Accessible for all:** Both dark and light modes are made available, ensuring comfort and accessibility for every user.
 - **Clear, step-by-step developer journey:** The documentation is structured to guide users through each task, making complex processes approachable and transparent.
-- **Inclusive for Python and Java programmers:** Every step is presented concisely for both languages, broadening our reach and utility.
-- **Iterative prototyping and usability testing:** We refine our content through hands-on testing and peer review, ensuring that if we can accomplish a task, so can our users.
-- **Forward-looking guidance:** After the main workflow, we provide clear next steps, so users always know how to continue growing and building.
-- **Measuring success:** We value analytics and tangible feedback to define and track what success and satisfaction look like for our users.
+- **Inclusive for Python and Java programmers:** Every step is presented concisely for both languages, broadening our reach and utility. If you have selected Java, you will always see the Java code for each topic and vice versa (saves a click).
+- **Iterative prototyping and usability testing:** Refine the content through hands-on testing and peer review, ensuring that if we can accomplish a task, so can our users.
+- **Forward-looking guidance:** After the main workflow, provide clear next steps, so users always know how to continue growing and building.
+- **Measuring success:** Value analytics and tangible feedback to define and track what success and satisfaction look like for our users and hence our content and overall experience.
 
 By combining these principles, we create documentation that is not only informative but also enjoyable to use.
