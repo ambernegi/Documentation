@@ -25,7 +25,46 @@
   }
 }
 
-/* Keep the rest of the theme grey and white for both modes */
-body, .md-main, .md-content {
-  background: var(--md-default-bg-color);
+/* --- Light Mode: White, Black, and Grey Theme --- */
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  body, .md-main, .md-content {
+    background: #f5f5f5 !important;
+    color: #111 !important;
+  }
+  a[style*="box-shadow"] {
+    background: #fff !important;
+    color: #111 !important;
+    border: 1.5px solid #e0e0e0 !important;
+    border-bottom: 3px solid transparent;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: background 0.2s, color 0.2s, border-bottom 0.2s, box-shadow 0.2s;
+  }
+  a[style*="box-shadow"]:hover {
+    background: #eaeaea !important;
+    color: #111 !important;
+    border-bottom: 3px solid #111 !important; /* black line on hover */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  }
+}
+
+/* --- Dark Mode: White, Black, and Grey Theme --- */
+@media (prefers-color-scheme: dark) {
+  body, .md-main, .md-content {
+    background: #18191a !important;
+    color: #f5f5f5 !important;
+  }
+  a[style*="box-shadow"] {
+    background: #111 !important;
+    color: #f5f5f5 !important;
+    border: 1.5px solid #333 !important;
+    border-bottom: 3px solid transparent;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    transition: background 0.2s, color 0.2s, border-bottom 0.2s, box-shadow 0.2s;
+  }
+  a[style*="box-shadow"]:hover {
+    background: #23272f !important;
+    color: #fff !important;
+    border-bottom: 3px solid #fff !important; /* white line on hover */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.28);
+  }
 } 
