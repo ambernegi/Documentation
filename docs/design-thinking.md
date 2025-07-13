@@ -1,4 +1,4 @@
-# Design Thinking Process & Impact
+# Design Thinking: Process & Impact
 
 My approach to documentation and design is rooted in empathy, clarity, and continuous improvement. I believe that great documentation should not only inform but also empower developers or aspiring developers to build amazing applications.
 
