@@ -4,92 +4,90 @@ This page provides complete, working code samples for different Google Maps API 
 
 ## Basic Setup
 
-### Python Setup
+=== "Python"
+    ```python
+    import requests
+    import os
+    from typing import Dict, List, Optional
+    from dotenv import load_dotenv
 
-```python
-import requests
-import os
-from typing import Dict, List, Optional
-from dotenv import load_dotenv
+    # Load environment variables
+    load_dotenv()
 
-# Load environment variables
-load_dotenv()
+    class GoogleMapsAPI:
+        def__init__(self, api_key: str = None):
+            self.api_key = api_key or os.getenv("GOOGLE_MAPS_API_KEY")
+            if not self.api_key:
+                raise ValueError("API key not provided and GOOGLE_MAPS_API_KEY not found in environment")
 
-class GoogleMapsAPI:
-    def __init__(self, api_key: str = None):
-        self.api_key = api_key or os.getenv("GOOGLE_MAPS_API_KEY")
-        if not self.api_key:
-            raise ValueError("API key not provided and GOOGLE_MAPS_API_KEY not found in environment")
-      
-        self.base_url = "https://maps.googleapis.com/maps/api"
-  
+    self.base_url = "https://maps.googleapis.com/maps/api"
+
     def make_request(self, endpoint: str, params: Dict) -> Optional[Dict]:
-        """Make a request to Google Maps API."""
-        url = f"{self.base_url}/{endpoint}"
-        params["key"] = self.api_key
-      
-        try:
-            response = requests.get(url, params=params)
-            response.raise_for_status()
-            return response.json()
-        except requests.RequestException as e:
-            print(f"Request failed: {e}")
-            return None
-```
+            """Make a request to Google Maps API."""
+            url = f"{self.base_url}/{endpoint}"
+            params["key"] = self.api_key
 
-### Java Setup
+    try:
+                response = requests.get(url, params=params)
+                response.raise_for_status()
+                return response.json()
+            except requests.RequestException as e:
+                print(f"Request failed: {e}")
+                return None
+    ```
 
-```java
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.URI;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
-import java.util.Map;
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
+=== "Java"
+    ```java
+    import java.net.http.HttpClient;
+    import java.net.http.HttpRequest;
+    import java.net.http.HttpResponse;
+    import java.net.URI;
+    import java.net.URLEncoder;
+    import java.nio.charset.StandardCharsets;
+    import java.util.Map;
+    import com.google.gson.Gson;
+    import com.google.gson.JsonObject;
 
-public class GoogleMapsAPI {
-    private final String apiKey;
-    private final String baseUrl = "https://maps.googleapis.com/maps/api";
-    private final HttpClient client = HttpClient.newHttpClient();
-    private final Gson gson = new Gson();
-  
+    public class GoogleMapsAPI {
+        private final String apiKey;
+        private final String baseUrl = "https://maps.googleapis.com/maps/api";
+        private final HttpClient client = HttpClient.newHttpClient();
+        private final Gson gson = new Gson();
+
     public GoogleMapsAPI(String apiKey) {
-        this.apiKey = apiKey != null ? apiKey : System.getenv("GOOGLE_MAPS_API_KEY");
-        if (this.apiKey == null || this.apiKey.isEmpty()) {
-            throw new IllegalStateException("API key not provided and GOOGLE_MAPS_API_KEY not found in environment");
+            this.apiKey = apiKey != null ? apiKey : System.getenv("GOOGLE_MAPS_API_KEY");
+            if (this.apiKey == null || this.apiKey.isEmpty()) {
+                throw new IllegalStateException("API key not provided and GOOGLE_MAPS_API_KEY not found in environment");
+            }
         }
-    }
-  
+
     public JsonObject makeRequest(String endpoint, Map<String, String> params) throws Exception {
-        StringBuilder urlBuilder = new StringBuilder(baseUrl + "/" + endpoint + "?");
-        params.put("key", apiKey);
-      
-        for (Map.Entry<String, String> entry : params.entrySet()) {
-            urlBuilder.append(URLEncoder.encode(entry.getKey(), StandardCharsets.UTF_8))
-                     .append("=")
-                     .append(URLEncoder.encode(entry.getValue(), StandardCharsets.UTF_8))
-                     .append("&");
+            StringBuilder urlBuilder = new StringBuilder(baseUrl + "/" + endpoint + "?");
+            params.put("key", apiKey);
+
+    for (Map.Entry<String, String> entry : params.entrySet()) {
+                urlBuilder.append(URLEncoder.encode(entry.getKey(), StandardCharsets.UTF_8))
+                         .append("=")
+                         .append(URLEncoder.encode(entry.getValue(), StandardCharsets.UTF_8))
+                         .append("&");
+            }
+
+    String url = urlBuilder.toString();
+            if (url.endsWith("&")) {
+                url = url.substring(0, url.length() - 1);
+            }
+
+    HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(url))
+                .build();
+
+    HttpResponse`<String>` response = client.send(request,
+                HttpResponse.BodyHandlers.ofString());
+
+    return gson.fromJson(response.body(), JsonObject.class);
         }
-      
-        String url = urlBuilder.toString();
-        if (url.endsWith("&")) {
-            url = url.substring(0, url.length() - 1);
-        }
-      
-        HttpRequest request = HttpRequest.newBuilder()
-            .uri(URI.create(url))
-            .build();
-      
-        HttpResponse<String> response = client.send(request, 
-            HttpResponse.BodyHandlers.ofString());
-      
-        return gson.fromJson(response.body(), JsonObject.class);
     }
-}
-```
+    ```
 
 ## Geocoding Examples
 
@@ -326,7 +324,7 @@ public class GoogleMapsAPI {
 
 === "Java"
     ```java
-    public MultiWaypointResult getMultiWaypointDirections(String origin, String destination, List`<String>` waypoints) throws Exception {
+    public MultiWaypointResult getMultiWaypointDirections(String origin, String destination, List `<String>` waypoints) throws Exception {
         GoogleMapsAPI api = new GoogleMapsAPI();
 
     Map<String, String> params = new HashMap<>();
@@ -498,7 +496,7 @@ public class GoogleMapsAPI {
 
 === "Java"
     ```java
-    public List`<NearbyPlace>` nearbySearch(double lat, double lng, int radius, String placeType) throws Exception {
+    public List `<NearbyPlace>` nearbySearch(double lat, double lng, int radius, String placeType) throws Exception {
         GoogleMapsAPI api = new GoogleMapsAPI();
 
     Map<String, String> params = new HashMap<>();
@@ -600,7 +598,7 @@ public class GoogleMapsAPI {
 
 === "Java"
     ```java
-    public List`<DistanceResult>` calculateDistances(List`<String>` origins, List`<String>` destinations, String mode) throws Exception {
+    public List `<DistanceResult>` calculateDistances(List `<String>` origins, List `<String>` destinations, String mode) throws Exception {
         GoogleMapsAPI api = new GoogleMapsAPI();
 
     Map<String, String> params = new HashMap<>();

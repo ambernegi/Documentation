@@ -29,13 +29,13 @@ All requests are made over HTTPS with JSON responses, ensuring secure and effici
 ### Step 1: Create a Google Cloud Project
 
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/)
-2. Click "Select a project" → "New Project"
-3. Enter a project name and click "Create"
+2. Click **Select a project** > **New Project**
+3. Enter a project name and click **Create**
 4. Note your Project ID for future reference
 
 ### Step 2: Enable APIs
 
-1. In the Google Cloud Console, go to "APIs & Services" → "Library"
+1. In the Google Cloud Console, go to **APIs & Services** > **Library**
 2. Search for and enable the APIs you need:
    - Maps JavaScript API
    - Geocoding API
@@ -45,14 +45,14 @@ All requests are made over HTTPS with JSON responses, ensuring secure and effici
 
 ### Step 3: Create API Keys
 
-1. Go to "APIs & Services" → "Credentials"
-2. Click "Create Credentials" → "API Key"
+1. Go to **APIs & Services** > **Credentials**
+2. Click **Create Credentials** > **API Key**
 3. Copy the generated API key
-4. Click "Restrict Key" to set up security restrictions
+4. Click **Restrict Key** to set up security restrictions
 
 ### Step 4: Set Up Billing
 
-1. Go to "Billing" in Google Cloud Console
+1. Go to **Billing** in Google Cloud Console
 2. Link a billing account to your project
 3. Set up budget alerts to monitor usage
 
@@ -159,69 +159,123 @@ All requests are made over HTTPS with JSON responses, ensuring secure and effici
 
 ### General Questions
 
-**Q: How much does Google Maps API cost?**
-A: Google Maps API offers a generous free tier with $200 monthly credit. Beyond that, pricing varies by service, typically $0.005-$0.017 per request.
+**How much does Google Maps API cost?**
 
-**Q: Do I need a credit card to use the API?**
-A: Yes, a billing account is required even for free tier usage. This helps Google prevent abuse and allows for usage monitoring.
+Google Maps API offers a generous free tier with $200 monthly credit. Beyond that, pricing varies by service, typically $0.005-$0.017 per request.
 
-**Q: Can I use the API for commercial applications?**
-A: Yes, Google Maps API can be used for commercial applications, but you must comply with the Terms of Service and attribution requirements.
+---
+
+**Do I need a credit card to use the API?**
+
+Yes, a billing account is required even for free tier usage. This helps Google prevent abuse and allows for usage monitoring.
+
+---
+
+**Can I use the API for commercial applications?**
+
+Yes, Google Maps API can be used for commercial applications, but you must comply with the Terms of Service and attribution requirements.
+
+---
 
 ### Technical Questions
 
-**Q: How do I handle API errors?**
-A: Always check the `status` field in API responses. Common status codes include `OK`, `ZERO_RESULTS`, `OVER_QUERY_LIMIT`, and `REQUEST_DENIED`.
+**How do I handle API errors?**
 
-**Q: Can I cache API responses?**
-A: Limited caching is allowed, but you cannot store map tiles or imagery for extended periods. Check the Terms of Service for specific guidelines.
+Always check the `status` field in API responses. Common status codes include `OK`, `ZERO_RESULTS`, `OVER_QUERY_LIMIT`, and `REQUEST_DENIED`.
 
-**Q: How do I implement rate limiting?**
-A: Monitor your request count and implement delays when approaching limits. Use exponential backoff for retry logic.
+---
+
+**Can I cache API responses?**
+
+Limited caching is allowed, but you cannot store map tiles or imagery for extended periods. Check the Terms of Service for specific guidelines.
+
+---
+
+**How do I implement rate limiting?**
+
+Monitor your request count and implement delays when approaching limits. Use exponential backoff for retry logic.
+
+---
 
 ### Security Questions
 
-**Q: How do I secure my API key?**
-A: Restrict your API key to specific domains/IPs, use environment variables, and never expose keys in client-side code.
+**How do I secure my API key?**
 
-**Q: What if my API key is compromised?**
-A: Immediately regenerate the key in Google Cloud Console and update your applications. Monitor for unusual usage patterns.
+Restrict your API key to specific domains/IPs, use environment variables, and never expose keys in client-side code.
 
-**Q: Can I use the API server-side only?**
-A: Yes, server-side usage is recommended for sensitive operations as it keeps your API key secure.
+---
+
+**What if my API key is compromised?**
+
+Immediately regenerate the key in Google Cloud Console and update your applications. Monitor for unusual usage patterns.
+
+---
+
+**Can I use the API server-side only?**
+
+Yes, server-side usage is recommended for sensitive operations as it keeps your API key secure.
+
+---
 
 ### Integration Questions
 
-**Q: Which programming languages are supported?**
-A: Google Maps API is language-agnostic. Any language that can make HTTP requests can use the API. Official libraries are available for JavaScript, Python, Java, and other languages.
+**Which programming languages are supported?**
 
-**Q: How do I handle mobile applications?**
-A: For mobile apps, use the Maps SDK for Android or iOS. For web apps, use the Maps JavaScript API.
+Google Maps API is language-agnostic. Any language that can make HTTP requests can use the API. Official libraries are available for JavaScript, Python, Java, and other languages.
 
-**Q: Can I use the API offline?**
-A: No, Google Maps API requires an internet connection. Consider downloading necessary data for offline scenarios.
+---
+
+**How do I handle mobile applications?**
+
+For mobile apps, use the Maps SDK for Android or iOS. For web apps, use the Maps JavaScript API.
+
+---
+
+**Can I use the API offline?**
+
+No, Google Maps API requires an internet connection. Consider downloading necessary data for offline scenarios.
+
+---
 
 ### Billing Questions
 
-**Q: How do I monitor my usage?**
-A: Use the Google Cloud Console to monitor API usage, set up billing alerts, and track costs by service.
+**How do I monitor my usage?**
 
-**Q: What happens if I exceed my quota?**
-A: Requests will return error 429 (Too Many Requests). Implement proper error handling and consider upgrading your quota.
+Use the Google Cloud Console to monitor API usage, set up billing alerts, and track costs by service.
 
-**Q: Can I get a refund for accidental charges?**
-A: Contact Google Cloud Support for billing issues. They may provide credits for legitimate mistakes.
+---
+
+**What happens if I exceed my quota?**
+
+Requests will return error 429 (Too Many Requests). Implement proper error handling and consider upgrading your quota.
+
+---
+
+**Can I get a refund for accidental charges?**
+
+Contact Google Cloud Support for billing issues. They may provide credits for legitimate mistakes.
+
+---
 
 ### Support Questions
 
-**Q: Where can I get help with the API?**
-A: Check the official documentation, Stack Overflow, or contact Google Cloud Support for technical issues.
+**Where can I get help with the API?**
 
-**Q: Is there a community forum?**
-A: Yes, the Google Maps Platform community forum is available for developers to ask questions and share solutions.
+Check the official documentation, Stack Overflow, or contact Google Cloud Support for technical issues.
 
-**Q: How do I report bugs?**
-A: Use the Google Cloud Console to report issues or contact support directly for critical problems.
+---
+
+**Is there a community forum?**
+
+Yes, the Google Maps Platform community forum is available for developers to ask questions and share solutions.
+
+---
+
+**How do I report bugs?**
+
+Use the Google Cloud Console to report issues or contact support directly for critical problems.
+
+---
 
 ## Next Steps
 
