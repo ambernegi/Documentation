@@ -1,15 +1,13 @@
-site_name: Demo Documentation
+site_name: Google Maps API Documentation
 site_url: https://localhost:8000/
 nav:
   - Home: index.md
-  - "RAG Overview": rag-overview.md
-  - "Step 1: Load Data": rag-step1-load-data.md
-  - "Step 2: Split Document": rag-step2-split-document.md
-  - "Step 3: Create Embeddings": rag-step3-create-embeddings.md
-  - "Step 4: Retrieval": rag-step4-retrieval.md
-  - "Step 5: Generation": rag-step5-generation.md
-  - "RAG Chatbot Example": rag-chatbot-example.md
-  - "What's Next: CAG & Graph RAG": whats-next-cag-graph-rag.md
+  - "Authentication": authentication.md
+  - "API Endpoints": endpoints.md
+  - "Operations": operations.md
+  - "Resources": resources.md
+  - "Examples": examples.md
+  - "Terms of Use": terms-of-use.md
 theme:
   name: material
   palette:
@@ -43,10 +41,10 @@ theme:
 extra:
   announcement:
     type: info
-    text: "✨ Welcome! Explore our new, user-friendly documentation portal."
+    text: "Explore our comprehensive Google Maps API documentation."
  
   footer:
-    copyright: "© 2025 Demo Portal. All rights reserved."
+    copyright: "© 2024 Google Maps API Documentation. All rights reserved."
   extra_css:
     - assets/custom-tiles.css
 plugins:
