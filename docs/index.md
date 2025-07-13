@@ -49,28 +49,33 @@ Google Maps API operates through RESTful web services:
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between;">
 
 <a href="developers-guide/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
-  <h3>📖 Developer's Guide</h3>
+  <h3>Developer's Guide</h3>
   <p>Overview, onboarding process, known limitations, and frequently asked questions.</p>
 </a>
 
 <a href="how-to-guide/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
-  <h3>🛠️ How-to Guide</h3>
+  <h3>How-to Guide</h3>
   <p>Prerequisites, getting started tutorials, and advanced query examples.</p>
 </a>
 
 <a href="code-samples/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
-  <h3>💻 Code Samples</h3>
+  <h3>Code Samples</h3>
   <p>Complete code examples for different API requests in Python and Java.</p>
 </a>
 
 <a href="reference-guide/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
-  <h3>📚 Reference Guide</h3>
+  <h3>Reference Guide</h3>
   <p>Complete reference documentation for all endpoints, parameters, and responses.</p>
 </a>
 
 <a href="change-history/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
-  <h3>📝 Change History</h3>
+  <h3>Change History</h3>
   <p>Version history and changelog for the Google Maps API documentation.</p>
+</a>
+
+<a href="design-thinking/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
+  <h3>Design Thinking Process & Impact</h3>
+  <p>Our approach to documentation design, user research, and continuous improvement.</p>
 </a>
 
 </div>
