@@ -7,6 +7,7 @@ nav:
   - "Code Samples": code-samples.md
   - "Reference Guide": reference-guide.md
   - "Change History": change-history.md
+  - "Design Thinking Process & Impact": design-thinking.md
 theme:
   name: material
   palette:
@@ -23,8 +24,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Fira Mono
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.sections
     - navigation.top
