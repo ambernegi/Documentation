@@ -2,7 +2,7 @@
 
 My approach to documentation and design is rooted in empathy, clarity, and continuous improvement. I believe that great documentation should not only inform but also empower developers to build amazing applications.
 
-## Our Design Philosophy
+## My Design Philosophy
 
 ### User-Centered Approach
 
