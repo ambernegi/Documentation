@@ -1,20 +1,23 @@
 # Design Thinking Process & Impact
 
-Our approach to documentation and design is rooted in empathy, clarity, and continuous improvement. We believe that great documentation should not only inform but also empower developers to build amazing applications.
+My approach to documentation and design is rooted in empathy, clarity, and continuous improvement. I believe that great documentation should not only inform but also empower developers to build amazing applications.
 
 ## Our Design Philosophy
 
 ### User-Centered Approach
 
-We focus on understanding the real needs and objectives of our audience, prioritizing substance over unnecessary features. Every design decision is made with the developer experience in mind.
+Focus on understanding the real needs and objectives of our audience, prioritizing substance over unnecessary features. Every design decision should be made with the developer experience in mind.
 
 ### Accessibility First
 
-Both dark and light modes are available, ensuring comfort and accessibility for every user. We maintain proper contrast ratios and support keyboard navigation for all users.
+Over 70% developers opt for dark themes in their IDEs. Why not make the documentation also feel like home? To do that, both dark and light modes are available, ensuring comfort and accessibility for every user. Maintaining proper contrast ratios along with supporting keyboard navigation.
 
 ### Clear, Step-by-Step Journey
 
-The documentation is structured to guide users through each task, making complex processes approachable and transparent. We break down complex concepts into digestible, actionable steps.
+The documentation is structured to answer the what, why, and how of the service or API. Not everyone needs all the information.
+
+### Write for a Wide Audience Base
+A user can be a college graduate experimenting with an API for a college project, or a CTO of a big tech company. There should be enough substance for both. For example, the CTO should be able to look at documentation to understand API pricing and evaluate whether it will help their team meet next quarter's business goals.
 
 ## Design Thinking Process
 
