@@ -2,12 +2,11 @@ site_name: Google Maps API Documentation
 site_url: https://localhost:8000/
 nav:
   - Home: index.md
-  - "Authentication": authentication.md
-  - "API Endpoints": endpoints.md
-  - "Operations": operations.md
-  - "Resources": resources.md
-  - "Examples": examples.md
-  - "Terms of Use": terms-of-use.md
+  - "Developer's Guide": developers-guide.md
+  - "How-to Guide": how-to-guide.md
+  - "Code Samples": code-samples.md
+  - "Reference Guide": reference-guide.md
+  - "Change History": change-history.md
 theme:
   name: material
   palette:
