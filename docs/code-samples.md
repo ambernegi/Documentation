@@ -685,10 +685,10 @@ This page provides complete, working code samples for different Google Maps API 
     # Usage
     result = safe_api_call("geocode/json", {"address": "Test Address"})
     if result["success"]:
-        print("✅ API call successful")
+        print("API call successful")
         # Process result["data"]
     else:
-        print(f"❌ Error: {result['error']}")
+        print(f"Error: {result['error']}")
     ```
 
 === "Java"
