@@ -2,16 +2,16 @@
 
 Version history and changelog for Google Maps API documentation.
 
-## Version 1.1.0 - December 19, 2024
+## Version 1.1.0 - July 12, 2025
 
 ### New Features
 
 - **Restructured Documentation**: Reorganized content into five main sections:
-  - Developer's Guide (overview, onboarding, limitations, FAQ)
-  - How-to Guide (prerequisites, getting started, advanced queries)
-  - Code Samples (complete examples for different requests)
-  - Reference Guide (comprehensive API documentation)
-  - Change History (version tracking)
+    - Developer's Guide (overview, onboarding, limitations, FAQ)
+    - How-to Guide (prerequisites, getting started, advanced queries)
+    - Code Samples (complete examples for different requests)
+    - Reference Guide (comprehensive API documentation)
+    - Change History (version tracking)
 
 ### Content Updates
 
