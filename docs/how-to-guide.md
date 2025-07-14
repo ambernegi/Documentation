@@ -132,15 +132,15 @@ Before you begin, ensure you have:
                 result = response["results"][0]
                 location = result["geometry"]["location"]
 
-    print(f"✅ Successfully geocoded address!")
+    print(f"Successfully geocoded address!")
                 print(f"Address: {result['formatted_address']}")
                 print(f"Latitude: {location['lat']}")
                 print(f"Longitude: {location['lng']}")
             else:
-                print(f"❌ Geocoding failed: {response['status']}")
+                print(f"Geocoding failed: {response['status']}")
 
     except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f"Error: {e}")
 
     # Run your first API call
     first_geocoding_call()
@@ -162,16 +162,16 @@ Before you begin, ensure you have:
                 JsonObject geometry = result.getAsJsonObject("geometry");
                 JsonObject location = geometry.getAsJsonObject("location");
 
-    System.out.println("✅ Successfully geocoded address!");
+    System.out.println("Successfully geocoded address!");
                 System.out.println("Address: " + result.get("formatted_address").getAsString());
                 System.out.println("Latitude: " + location.get("lat").getAsDouble());
                 System.out.println("Longitude: " + location.get("lng").getAsDouble());
             } else {
-                System.out.println("❌ Geocoding failed: " + response.get("status").getAsString());
+                System.out.println("Geocoding failed: " + response.get("status").getAsString());
             }
 
     } catch (Exception e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
     ```
@@ -209,9 +209,9 @@ Before you begin, ensure you have:
     # Usage
     result = robust_api_call("geocode/json", {"address": "Test Address"})
     if result["success"]:
-        print("✅ API call successful")
+        print("API call successful")
     else:
-        print(f"❌ Error: {result['error']}")
+        print(f"Error: {result['error']}")
     ```
 
 === "Java"
@@ -333,7 +333,7 @@ Before you begin, ensure you have:
             route = response["routes"][0]
             legs = route["legs"]
 
-    print("🚗 Multi-waypoint route:")
+    print("Multi-waypoint route:")
             for i, leg in enumerate(legs):
                 print(f"Leg {i+1}: {leg['start_address']} → {leg['end_address']}")
                 print(f"  Distance: {leg['distance']['text']}")
@@ -359,7 +359,7 @@ Before you begin, ensure you have:
             JsonObject route = response.getAsJsonArray("routes").get(0).getAsJsonObject();
             JsonArray legs = route.getAsJsonArray("legs");
 
-    System.out.println("🚗 Multi-waypoint route:");
+    System.out.println("Multi-waypoint route:");
             for (int i = 0; i < legs.size(); i++) {
                 JsonObject leg = legs.get(i).getAsJsonObject();
                 System.out.println("Leg " + (i+1) + ": " +
@@ -398,7 +398,7 @@ Before you begin, ensure you have:
 
     if response["status"] == "OK":
             places = response["results"]
-            print(f"🍕 Found {len(places)} pizza restaurants:")
+            print(f"Found {len(places)} pizza restaurants:")
 
     for place in places:
                 print(f"  - {place['name']}")
@@ -426,7 +426,7 @@ Before you begin, ensure you have:
 
     if ("OK".equals(response.get("status").getAsString())) {
             JsonArray places = response.getAsJsonArray("results");
-            System.out.println("🍕 Found " + places.size() + " pizza restaurants:");
+            System.out.println("Found " + places.size() + " pizza restaurants:");
 
     for (int i = 0; i < places.size(); i++) {
                 JsonObject place = places.get(i).getAsJsonObject();
@@ -474,9 +474,9 @@ Before you begin, ensure you have:
     for result in results:
                 if result["result"]["status"] == "OK":
                     location = result["result"]["results"][0]["geometry"]["location"]
-                    print(f"✅ {result['address']}: {location['lat']}, {location['lng']}")
+                    print(f"{result['address']}: {location['lat']}, {location['lng']}")
                 else:
-                    print(f"❌ {result['address']}: {result['result']['status']}")
+                    print(f"{result['address']}: {result['result']['status']}")
 
     # Usage
     addresses = [
@@ -531,10 +531,10 @@ Before you begin, ensure you have:
         for (CompletableFuture`<GeocodingResult>` future : futures) {
             GeocodingResult result = future.get();
             if (result.isSuccess()) {
-                System.out.println("✅ " + result.getAddress() + ": " +
+                System.out.println(" " + result.getAddress() + ": " +
                     result.getLatitude() + ", " + result.getLongitude());
             } else {
-                System.out.println("❌ " + result.getAddress() + ": " + result.getError());
+                System.out.println(" " + result.getAddress() + ": " + result.getError());
             }
         }
 
