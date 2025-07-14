@@ -74,10 +74,10 @@ All requests are made over HTTPS with JSON responses, ensuring secure and effici
         data = response.json()
 
     if data["status"] == "OK":
-            print("✅ API key is working correctly!")
+            print("API key is working correctly!")
             return True
         else:
-            print(f"❌ API key error: {data['status']}")
+            print(f"API key error: {data['status']}")
             return False
 
     # Test your API key
@@ -108,10 +108,10 @@ All requests are made over HTTPS with JSON responses, ensuring secure and effici
                 HttpResponse.BodyHandlers.ofString());
 
     if (response.body().contains("\"status\":\"OK\"")) {
-                System.out.println("✅ API key is working correctly!");
+                System.out.println("API key is working correctly!");
                 return true;
             } else {
-                System.out.println("❌ API key error: " + response.body());
+                System.out.println("API key error: " + response.body());
                 return false;
             }
         }
@@ -151,7 +151,7 @@ All requests are made over HTTPS with JSON responses, ensuring secure and effici
 ### Billing Considerations
 
 - Free tier provides $200 monthly credit
-- Usage beyond free tier incurs charges
+- Usage beyond the free tier incurs charges
 - Budget alerts help prevent unexpected charges
 - Quota exceeded requests return error 429
 
@@ -233,7 +233,7 @@ For mobile apps, use the Maps SDK for Android or iOS. For web apps, use the Maps
 
 **Can I use the API offline?**
 
-No, Google Maps API requires an internet connection. Consider downloading necessary data for offline scenarios.
+No, Google Maps API requires an internet connection. Consider downloading the necessary data for offline scenarios.
 
 ---
 
