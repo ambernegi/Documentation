@@ -75,7 +75,7 @@ Google Maps API operates through RESTful web services:
 
 <a href="design-thinking/" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
   <h3>Design Thinking Process & Impact</h3>
-  <p>Our approach to documentation design, user research, and continuous improvement.</p>
+  <p>My approach to documentation design, user research, and continuous improvement.</p>
 </a>
 
 </div>
