@@ -13,13 +13,13 @@ theme:
   palette:
     - scheme: default
       primary: black
-      accent: blue
+      accent: grey
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
       primary: grey
-      accent: light blue
+      accent: white
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
