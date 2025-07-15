@@ -82,3 +82,25 @@ Google Maps API operates through RESTful web services:
 
 ---
 
+## Related Videos
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between;">
+
+<a href="https://www.youtube.com/watch?v=I5ili_1G0Vk" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
+  <h3>Getting started with Google APIs</h3>
+  <p>Watch a step-by-step introduction to using Google APIs.</p>
+</a>
+
+<a href="https://www.youtube.com/watch?v=oXVV9gcFDxA" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
+  <h3>Generating a Google Maps API Key</h3>
+  <p>Learn how to generate and secure your Google Maps API key.</p>
+</a>
+
+<a href="https://www.youtube.com/watch?v=HTK7lzdwANU" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
+  <h3>Announcing the new Places API</h3>
+  <p>Discover the features and improvements in the new Places API.</p>
+</a>
+
+</div>
+
+---
