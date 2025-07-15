@@ -86,19 +86,37 @@ Google Maps API operates through RESTful web services:
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between;">
 
-<a href="https://www.youtube.com/watch?v=I5ili_1G0Vk" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
-  <h3>Getting started with Google APIs</h3>
-  <p>Watch a step-by-step introduction to using Google APIs.</p>
+<a href="https://www.youtube.com/watch?v=I5ili_1G0Vk" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center; transition:box-shadow 0.2s;">
+  <img src="https://img.youtube.com/vi/I5ili_1G0Vk/hqdefault.jpg" alt="Getting started with Google APIs thumbnail" style="width:100%; max-width:320px; border-radius:8px; margin-bottom:1rem; box-shadow:0 1px 4px rgba(0,0,0,0.10);">
+  <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;">
+    <span style="display:inline-block; vertical-align:middle;">
+      <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="20" rx="4" fill="#FF0000"/><path d="M11.5 14V6L18 10L11.5 14Z" fill="white"/></svg>
+    </span>
+    <h3 style="margin:0; font-size:1.1em; font-weight:600;">Getting started with Google APIs</h3>
+  </div>
+  <p style="margin:0; text-align:center;">Watch a step-by-step introduction to using Google APIs.</p>
 </a>
 
-<a href="https://www.youtube.com/watch?v=oXVV9gcFDxA" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
-  <h3>Generating a Google Maps API Key</h3>
-  <p>Learn how to generate and secure your Google Maps API key.</p>
+<a href="https://www.youtube.com/watch?v=oXVV9gcFDxA" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center; transition:box-shadow 0.2s;">
+  <img src="https://img.youtube.com/vi/oXVV9gcFDxA/hqdefault.jpg" alt="Generating a Google Maps API Key thumbnail" style="width:100%; max-width:320px; border-radius:8px; margin-bottom:1rem; box-shadow:0 1px 4px rgba(0,0,0,0.10);">
+  <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;">
+    <span style="display:inline-block; vertical-align:middle;">
+      <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="20" rx="4" fill="#FF0000"/><path d="M11.5 14V6L18 10L11.5 14Z" fill="white"/></svg>
+    </span>
+    <h3 style="margin:0; font-size:1.1em; font-weight:600;">Generating a Google Maps API Key</h3>
+  </div>
+  <p style="margin:0; text-align:center;">Learn how to generate and secure your Google Maps API key.</p>
 </a>
 
-<a href="https://www.youtube.com/watch?v=HTK7lzdwANU" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; transition:box-shadow 0.2s;">
-  <h3>Announcing the new Places API</h3>
-  <p>Discover the features and improvements in the new Places API.</p>
+<a href="https://www.youtube.com/watch?v=HTK7lzdwANU" target="_blank" rel="noopener" style="flex:1 1 250px; min-width:250px; max-width:32%; background:var(--md-default-bg-color); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:1.5rem; margin-bottom:1.5rem; text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center; transition:box-shadow 0.2s;">
+  <img src="https://img.youtube.com/vi/HTK7lzdwANU/hqdefault.jpg" alt="Announcing the new Places API thumbnail" style="width:100%; max-width:320px; border-radius:8px; margin-bottom:1rem; box-shadow:0 1px 4px rgba(0,0,0,0.10);">
+  <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;">
+    <span style="display:inline-block; vertical-align:middle;">
+      <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="20" rx="4" fill="#FF0000"/><path d="M11.5 14V6L18 10L11.5 14Z" fill="white"/></svg>
+    </span>
+    <h3 style="margin:0; font-size:1.1em; font-weight:600;">Announcing the new Places API</h3>
+  </div>
+  <p style="margin:0; text-align:center;">Discover the features and improvements in the new Places API.</p>
 </a>
 
 </div>
