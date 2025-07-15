@@ -81,7 +81,7 @@ Google Maps API operates through RESTful web services:
 </div>
 
 ---
-
+[comment]: <> (
 ## Related Videos
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between;">
@@ -120,5 +120,5 @@ Google Maps API operates through RESTful web services:
 </a>
 
 </div>
-
+)
 ---
